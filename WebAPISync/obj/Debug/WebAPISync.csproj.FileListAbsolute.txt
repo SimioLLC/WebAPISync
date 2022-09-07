@@ -1,0 +1,16 @@
+C:\Users\GlenWirth\OneDrive - Simio LLC\Documents\SimioUserExtensions\WebAPISync.dll.config
+C:\Users\GlenWirth\OneDrive - Simio LLC\Documents\SimioUserExtensions\WebAPISync.dll
+C:\Users\GlenWirth\OneDrive - Simio LLC\Documents\SimioUserExtensions\WebAPISync.pdb
+C:\VSOProjects\SimioLLC\WebAPISync\WebAPISync\obj\Debug\WebAPISync.csproj.AssemblyReference.cache
+C:\VSOProjects\SimioLLC\WebAPISync\WebAPISync\obj\Debug\WebAPISync.csproj.CoreCompileInputs.cache
+C:\VSOProjects\SimioLLC\WebAPISync\WebAPISync\obj\Debug\WebAPISync.csproj.CopyComplete
+C:\VSOProjects\SimioLLC\WebAPISync\WebAPISync\obj\Debug\WebAPISync.dll
+C:\VSOProjects\SimioLLC\WebAPISync\WebAPISync\obj\Debug\WebAPISync.pdb
+C:\VSOProjects\SimioLLC\WebAPISyncTest\WebAPISync\obj\Debug\WebAPISync.csproj.AssemblyReference.cache
+C:\VSOProjects\SimioLLC\WebAPISyncTest\WebAPISync\obj\Debug\WebAPISync.csproj.CoreCompileInputs.cache
+C:\VSOProjects\SimioLLC\WebAPISyncTest\WebAPISync\obj\Debug\WebAPISync.dll
+C:\VSOProjects\SimioLLC\WebAPISyncTest\WebAPISync\obj\Debug\WebAPISync.pdb
+C:\VSOProjects\SimioLLC\WebAPISyncTest\WebAPISync\obj\Debug\WebAPISync.csproj.CopyComplete
+C:\VSOProjects\SimioLLC\WebAPISync\Executables\WebAPISync.dll.config
+C:\VSOProjects\SimioLLC\WebAPISync\Executables\WebAPISync.dll
+C:\VSOProjects\SimioLLC\WebAPISync\Executables\WebAPISync.pdb
