@@ -210,6 +210,7 @@ namespace WebAPISync
                 request.AddParameter(contentTypeValue, message, ParameterType.RequestBody);
             }
 
+            // Send the request
             IRestResponse response = client.Execute(request);
 
             IStateProperty statusCodeStateProp = (IStateProperty)_statusCodeProp;
@@ -221,7 +222,20 @@ namespace WebAPISync
             IState responseState = responseStateProp.GetState(context);
             IStringState stringState = responseState as IStringState;
 
-            if (((request.Method == Method.GET && response.StatusCode != System.Net.HttpStatusCode.OK) || ((request.Method == Method.POST) && response.StatusCode != System.Net.HttpStatusCode.OK && response.StatusCode != System.Net.HttpStatusCode.Created && response.StatusCode != System.Net.HttpStatusCode.NoContent)) || (request.Method != Method.GET && request.Method != Method.POST && response.StatusCode != System.Net.HttpStatusCode.NoContent))
+            if (
+                (
+                    (request.Method == Method.GET && response.StatusCode != System.Net.HttpStatusCode.OK) 
+                    || (
+                        (request.Method == Method.POST) 
+                        && response.StatusCode != System.Net.HttpStatusCode.OK 
+                        && response.StatusCode != System.Net.HttpStatusCode.Created 
+                        && response.StatusCode != System.Net.HttpStatusCode.NoContent
+                        )
+                ) 
+                || (request.Method != Method.GET 
+                    && request.Method != Method.POST 
+                    && response.StatusCode != System.Net.HttpStatusCode.NoContent)
+               )
             {
                 if (response.ErrorMessage != null) stringState.Value = "StatusCode=" + response.StatusCode.ToString() + ", ErrorMessage=" + response.ErrorMessage;
                 else stringState.Value = "StatusCode=" + response.StatusCode.ToString() + ", Content=" + response.Content;
