@@ -191,11 +191,11 @@
       <HintPath>..\packages\RestSharp.106.15.0\lib\net452\RestSharp.dll</HintPath>
     </Reference>
     <Reference Include="SimioAPI">
-      <HintPath>..\..\..\..\Program Files\Simio LLC\Simio\SimioAPI.dll</HintPath>
+      <HintPath>C:\Program Files\Simio LLC\Simio\SimioAPI.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="SimioAPI.Extensions">
-      <HintPath>..\..\..\..\Program Files\Simio LLC\Simio\SimioAPI.Extensions.dll</HintPath>
+      <HintPath>C:\Program Files\Simio LLC\Simio\SimioAPI.Extensions.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System" />

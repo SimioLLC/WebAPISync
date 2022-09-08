@@ -77,7 +77,7 @@ namespace WebAPISync
         public string GetStringValue(object element)
         {
             var myElement = element as WebAPIElement;
-            return myElement.getStirngValue();
+            return myElement.getStringValue();
         }
 
         /// <summary>
@@ -190,7 +190,7 @@ namespace WebAPISync
             public void Dispose() { }
         }
                 
-        public string getStirngValue()
+        public string getStringValue()
         {
             return _value;
         }    
