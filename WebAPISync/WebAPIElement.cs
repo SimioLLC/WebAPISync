@@ -177,8 +177,9 @@ namespace WebAPISync
             {
                 //  local collection to avoid locking of public list
                 var receivedMessages = _receivedMessages.ToArray();
-                _receivedMessages.Clear();
-
+                var numberOfMessages = receivedMessages.Length;
+                _receivedMessages.RemoveRange(0, numberOfMessages);
+  
                 foreach (string message in receivedMessages)
                 {
                     requestResults.Add(ParseDataToXML(message, out var parseError));
