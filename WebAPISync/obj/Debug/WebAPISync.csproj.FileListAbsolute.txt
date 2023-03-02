@@ -14,3 +14,11 @@ C:\VSOProjects\SimioLLC\WebAPISyncTest\WebAPISync\obj\Debug\WebAPISync.csproj.Co
 C:\VSOProjects\SimioLLC\WebAPISync\Executables\WebAPISync.dll.config
 C:\VSOProjects\SimioLLC\WebAPISync\Executables\WebAPISync.dll
 C:\VSOProjects\SimioLLC\WebAPISync\Executables\WebAPISync.pdb
+C:\GitRepos\SimioLLC\WebAPISync\WebAPISync\obj\Debug\WebAPISync.csproj.AssemblyReference.cache
+C:\GitRepos\SimioLLC\WebAPISync\WebAPISync\obj\Debug\WebAPISync.csproj.CoreCompileInputs.cache
+C:\GitRepos\SimioLLC\WebAPISync\WebAPISync\obj\Debug\WebAPISync.dll
+C:\GitRepos\SimioLLC\WebAPISync\WebAPISync\obj\Debug\WebAPISync.pdb
+C:\GitRepos\SimioLLC\WebAPISync\WebAPISync\obj\Debug\WebAPISync.csproj.CopyComplete
+C:\GitRepos\SimioLLC\WebAPISync\Executables\WebAPISync.dll.config
+C:\GitRepos\SimioLLC\WebAPISync\Executables\WebAPISync.dll
+C:\GitRepos\SimioLLC\WebAPISync\Executables\WebAPISync.pdb

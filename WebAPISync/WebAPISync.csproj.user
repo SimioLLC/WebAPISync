@@ -3,6 +3,6 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
     <StartAction>Program</StartAction>
     <StartProgram>C:\Program Files\Simio LLC\Simio\Simio.exe</StartProgram>
-    <StartArguments>-f "C:\Users\GlenWirth\Simio LLC\Services - Wonderware\MixTankFill_TI_20220901_Test.spfx"</StartArguments>
+    <StartArguments>-f "..\Models\WebAPISync_MessageReceive.spfx"</StartArguments>
   </PropertyGroup>
 </Project>
