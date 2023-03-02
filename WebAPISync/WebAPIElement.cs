@@ -172,18 +172,21 @@ namespace WebAPISync
             mergedDataSet.Locale = System.Globalization.CultureInfo.InvariantCulture;
             List<string> requestResults = new List<string>();
 
+;           // if messages exist
             if (_receivedMessages.Count > 0)
             {
-                foreach (string message in _receivedMessages)
+                //  local collection to avoid locking of public list
+                var receivedMessages = _receivedMessages.ToArray();
+                _receivedMessages.Clear();
+
+                foreach (string message in receivedMessages)
                 {
                     requestResults.Add(ParseDataToXML(message, out var parseError));
                     if (parseError.Length > 0)
                     {
                         throw new Exception(parseError);
                     }
-                }
-
-                _receivedMessages.Clear();
+                }   
             }
 
             if (requestResults.Count > 0)
